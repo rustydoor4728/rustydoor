@@ -10790,6 +10790,12 @@ body > .section {
 .card h6 {
   color: #f5f5f5;
 }
+.card a.level {
+  color: #bdbdbd;
+}
+.card a.level:hover {
+  background-color: rgba(255,255,255,0.07);
+}
 .card.profile {
   border: 0;
 }
@@ -10954,7 +10960,7 @@ a.article-nav-next span {
 }
 .navbar-main {
   box-shadow: none;
-  background-color: transparent;
+  background-color: #212121;
   border-bottom: 0.5px solid #424242;
 }
 .navbar-main .navbar-container {
@@ -10972,6 +10978,7 @@ a.article-nav-next span {
   flex-grow: 1;
   flex-shrink: 0;
   overflow-x: auto;
+  background-color: #212121;
 }
 .navbar-main .navbar-start {
   justify-content: flex-start;
@@ -10990,6 +10997,9 @@ a.article-nav-next span {
 }
 .navbar-main .navbar-item.is-active {
   background-color: transparent;
+}
+.navbar-main .navbar-item:hover {
+  background-color: #424242;
 }
 @media screen and (max-width: 1087px) {
   .navbar-main .navbar-menu {
@@ -11278,6 +11288,9 @@ figure.highlight {
   margin: 1em 0 1em !important;
   border-radius: 0;
 }
+figure.highlight .highlight-body {
+  background-color: #080808;
+}
 figure.highlight.folded .highlight-body {
   height: 0;
 }
@@ -11308,16 +11321,18 @@ figure.highlight pre {
 figure.highlight pre .line,
 figure.highlight pre code .hljs {
   line-height: 1.5rem;
+  color: #bdbdbd;
 }
 figure.highlight figcaption,
 figure.highlight .gutter {
-  background: rgba(200,200,200,0.15);
+  background: rgba(200,200,200,0.05);
 }
 figure.highlight figcaption {
   margin: 0 !important;
   padding: 0.3em 0em 0.3em 0.75em;
   font-style: normal;
   font-size: 0.8em;
+  background-color: #0d0d0d;
 }
 figure.highlight figcaption * {
   color: inherit;
