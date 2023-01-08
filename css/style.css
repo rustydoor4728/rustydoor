@@ -11158,7 +11158,7 @@ footer.footer .level-end .field {
   flex-direction: row;
   line-height: 1.5em;
   font-weight: normal;
-  background-color: #fff;
+  background-color: #424242;
   min-height: 3rem;
 }
 .searchbox .searchbox-input-container {
@@ -11170,7 +11170,7 @@ footer.footer .level-end .field {
   color: inherit;
   box-sizing: border-box;
   padding: 0.75em 0 0.75em 1.25em;
-  background: #fff;
+  background: #424242;
 }
 .searchbox .searchbox-close {
   display: inline-block;
@@ -11188,6 +11188,7 @@ footer.footer .level-end .field {
   flex-grow: 1;
   overflow-y: auto;
   border-top: 1px solid #dbdbdb;
+  background-color: #212121;
 }
 .searchbox .searchbox-result-section header,
 .searchbox .searchbox-result-item {
@@ -11204,7 +11205,7 @@ footer.footer .level-end .field {
   flex-direction: row;
 }
 .searchbox .searchbox-result-item:not(.disabled):not(.active):not(:active):hover {
-  background-color: #fff;
+  background-color: #424242;
 }
 .searchbox .searchbox-result-item:active,
 .searchbox .searchbox-result-item.active {
@@ -11227,6 +11228,7 @@ footer.footer .level-end .field {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: #eee;
 }
 .searchbox .searchbox-result-title-secondary {
   color: #b5b5b5;
@@ -11258,7 +11260,7 @@ footer.footer .level-end .field {
   padding: 0.5em 0.8em;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05), 0 0 1px rgba(0,0,0,0.1);
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #424242;
 }
 .searchbox .searchbox-pagination .searchbox-pagination-item.active .searchbox-pagination-link {
   color: #fff;
